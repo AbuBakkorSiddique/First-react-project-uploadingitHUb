@@ -1,0 +1,41 @@
+.main-footer a {
+text-decoration: none;
+color:white;
+text-transform: uppercase;
+
+
+    
+}
+
+
+.main-footer .sub-fotter  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 5px;
+    top: 0;
+    
+}
+ .sub-fotter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+
+.main-footer{
+    
+  
+    box-shadow:  35px -35px 70px #949494,
+                 -35px 35px 70px #ffffff;
+                background-color: black;
+                color: white;
+          
+}
+
+.sub-fotter{
+
+    padding: 25px;
+}

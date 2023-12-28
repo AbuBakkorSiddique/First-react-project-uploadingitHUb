@@ -1,0 +1,51 @@
+.combopack{
+
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+
+.dropdawn  {
+
+
+width: 350px;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+
+
+}
+
+.dropdawan-item h4{
+
+background-color: lightblue;
+padding: 8px;
+border-radius: 9px;
+
+
+
+
+
+}
+
+.dropdawan-item p{
+    background-color: aqua;
+    padding: 8px;
+    border-radius: 25px 1px  15px 0;
+
+
+}
+
+.dropdawan-item h4:hover p{
+    display: block;
+   
+}
+
+.imagesss img{
+    border-radius: 45px 1px 35px 1px ;
+}

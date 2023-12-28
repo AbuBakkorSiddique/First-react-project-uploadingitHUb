@@ -1,0 +1,27 @@
+.multi-main {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.multi-left img {
+
+    width: 350px;
+    height: 300px;
+}
+
+
+/*  Right side css code bro    */
+
+
+.multi-rights {
+
+
+
+padding: 15px;
+
+
+
+}

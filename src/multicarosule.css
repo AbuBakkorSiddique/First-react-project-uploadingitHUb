@@ -1,0 +1,91 @@
+.cart {
+
+    overflow: hidden;
+margin: 25px 10px 0px 10px;
+box-shadow: 2px 0px  12px  black;
+height: 350px;
+
+}
+
+.cart img {
+
+    height: 400px;
+    overflow: hidden;
+}
+.cart:hover {
+    transform: translateX(2);
+    transform: translate3d(1px);
+    transition:ease-in-out ; 
+
+    
+}
+
+
+.cart:hover{
+
+
+transform: translateY( 8px);
+transition: all 0.8s;
+
+
+
+
+
+
+
+}
+
+.out-cart {
+
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+
+}
+
+ /*.r-button {
+margin-top: 45px;
+gap: 10px;
+text-align: center;
+justify-content: end;
+align-items: center;
+padding-right: 15px;
+
+} */
+
+
+
+/* Add this to your 'multicarosule.css' or any relevant styling file */
+
+.c-1,
+.c-2 {
+  position: relative;
+  padding: 50px 0; /* Add space at the top and bottom */
+}
+
+.c-1 {
+  z-index: 2; /* Make sure c-1 is on top */
+}
+
+.d-flex.r-button {
+  position: absolute;
+  top: 10px; /* Adjust this value as needed to position it at the desired height */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 100%;
+  z-index: 1000; /* Adj
+  pust the z-index value based on your layout */
+
+  padding: 15px;
+}
+
+.d-flex.r-button button {
+  /* Add any additional styling for the buttons if needed */
+  margin: 0 5px; /* Adjust the margin between buttons */
+}

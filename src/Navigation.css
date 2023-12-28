@@ -1,0 +1,55 @@
+.brand-Logo {
+
+    width: 45px;
+    height: 45px;
+
+}
+
+ul {
+
+    list-style-type: none;
+
+}
+
+ul li  a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.menu ul  {
+
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav {
+
+background: black;
+color:white ;
+padding: 9px;
+font-family:poppines;
+
+}
+
+button {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color:mediumblue ; 
+    color: white;
+
+
+}

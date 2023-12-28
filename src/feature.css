@@ -1,0 +1,16 @@
+.feature-section section img {
+
+width: 150px ; 
+ height: 100px;
+
+}
+
+.feature-section {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+ 
+    
+}
